@@ -1,8 +1,34 @@
-This is a project associated to Kaggle competition https://www.kaggle.com/c/kobe-bryant-shot-selection. It is analyzed the behaviour of the serie weekly, daily, monthly.. and so on. Morever, when a time serie is being studied is important to find patterns within data, therefore, you will see how to study the trend, seasonality and residuals of a serie. In additon, it is mandatory to find out whether exists or not exist autocorrelation between every point of the serie. 
-Finally, you could check how to create a forecast model using fbprophet library to predict how the serie should behave in the future.
+This is a project associated to Kaggle competition https://www.kaggle.com/c/kobe-bryant-shot-selection. 
 
-You can find a pretty verison of the code in .html format inside /docs directory.
+Data contains the location and circumstances of every field goal attempted by Kobe Bryant took during his 20-year career. The main task is to predict whether the basket went in (shot_made_flag).
 
+The field names are self explanatory and contain the following attributes:
+
+action_type
+combined_shot_type
+game_event_id
+game_id
+lat
+loc_x
+loc_y
+lon
+minutes_remaining
+period
+playoffs
+season 
+seconds_remaining
+shot_distance
+shot_made_flag (this is what you are predicting)
+shot_type
+shot_zone_area
+shot_zone_basic
+shot_zone_range
+team_id
+team_name
+game_date
+matchup
+opponent
+shot_id
 
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
