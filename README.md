@@ -1,42 +1,15 @@
-This is a project associated to Kaggle competition https://www.kaggle.com/c/kobe-bryant-shot-selection. 
+Using 20 years of data on Kobe's swishes and misses, can you predict which shots will find the bottom of the net? This competition is well suited for practicing classification basics, feature engineering, and time series analysis.
 
-Data contains the location and circumstances of every field goal attempted by Kobe Bryant took during his 20-year career. The main task is to predict whether the basket went in (shot_made_flag).
+Data contains the location and circumstances of every field goal attempted by Kobe Bryant took during his 20-year career. The task was to predict whether the basket went in (shot_made_flag). These were the test set shots for which I must submit a prediction. I provided a sample submission file with the correct shot_ids needed for a valid prediction.
 
-The field names are self explanatory and contain the following attributes:
+Kaggle Competition: https://www.kaggle.com/c/kobe-bryant-shot-selection
 
-action_type
-combined_shot_type
-game_event_id
-game_id
-lat
-loc_x
-loc_y
-lon
-minutes_remaining
-period
-playoffs
-season 
-seconds_remaining
-shot_distance
-shot_made_flag (this is what you are predicting)
-shot_type
-shot_zone_area
-shot_zone_basic
-shot_zone_range
-team_id
-team_name
-game_date
-matchup
-opponent
-shot_id
-
-[![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+<img src="https://img.shields.io/badge/language-python-4AAB26">
+![version](https://img.shields.io/badge/version-3.7-blue)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/caumente/time-series-analysis/graphs/contributors
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/caumente
